@@ -12,10 +12,11 @@
 
 <header class="nav">
   <div class="nav-inner">
-    <a href="#top" class="nav-mark">C.R.</a>
     <nav class="nav-links">
       <a href="#about">About</a>
       <a href="#reel">Reel</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#choreography">Choreography</a>
       <a href="#experience">Experience</a>
       <a href="#resume">Resume</a>
       <a href="#contact">Contact</a>
@@ -28,25 +29,17 @@
     <img src="assets/dance-portrait.jpg" alt="Camilla Rakhimova">
   </div>
   <div class="hero-text reveal">
-    <p class="eyebrow">Dancer</p>
     <h1>Camilla<br>Rakhimova</h1>
     <p class="tagline">Contemporary &middot; Classical &middot; Neoclassical</p>
     <p class="lang-cycle" aria-hidden="true">
       <span class="lang-word is-active" lang="ru">Танец</span><span class="lang-word" lang="uk">Танець</span><span class="lang-word" lang="tg">Рақс</span><span class="lang-word" lang="fr">Danse</span><span class="lang-word" lang="en">Dance</span>
     </p>
     <p class="sr-only">Dance &mdash; in Russian: Танец, Ukrainian: Танець, Tajik: Рақс, French: Danse, English: Dance</p>
-    <p class="hero-meta">6 June 2002 &middot; 158cm &middot; Ukrainian, Tajik</p>
-    <div class="hero-links">
-      <a href="mailto:rakhimova.camill@gmail.com">Email</a>
-      <a href="https://www.instagram.com/camillarakhimova_" target="_blank" rel="noopener">Instagram</a>
-      <a href="#resume">Resume</a>
+    <div id="about" class="about-inline">
+      <p class="section-label">About</p>
+      <p class="about-text">Diverse professional freelance dancer with 2 and a half years stage experience across contemporary, classical and neoclassical repertoire. Expressive, adaptable and disciplined, I bring artistic precision and creativity to every performance. Pro-active, flexible and ambitious, my purpose is to bring passion and creative vision through my own artistic voice.</p>
     </div>
   </div>
-</section>
-
-<section id="about" class="section reveal">
-  <p class="section-label">About</p>
-  <p class="about-text">Diverse professional freelance dancer with 2 and a half years stage experience across contemporary, classical and neoclassical repertoire. Expressive, adaptable and disciplined, I bring artistic precision and creativity to every performance. Pro-active, flexible and ambitious, my purpose is to bring passion and creative vision through my own artistic voice.</p>
 </section>
 
 <section id="reel" class="section">
@@ -85,6 +78,52 @@
         <div class="video-placeholder">Add video link</div>
       </div>
       <figcaption><em>Giselle</em> &middot; A. Horsky, Ayni National Opera and Ballet Theatre</figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <p class="section-label">Gallery</p>
+  <!-- To add a photo: replace a .gallery-placeholder div with
+       <img src="assets/your-photo.jpg" alt="..."> inside .gallery-item -->
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="assets/617A778E-CBF5-4AA1-A35E-753E4F36A131.JPG" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/7735E8C0-8459-41C5-87A6-BD8D5C658CDE.JPG" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/C7603466-2390-455D-9ED3-10DDE6E7A405.JPG" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/EA4B874E-16E1-44B9-AE39-E936C5EAB93B.JPG" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/ED6C397E-DBC1-4853-A096-5F909675813A.JPG" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+  </div>
+</section>
+
+<section id="choreography" class="section">
+  <p class="section-label">Personal Choreographic Project</p>
+  <div class="reel-grid">
+
+    <!-- To add the video: replace the src="" below with a YouTube embed URL,
+         e.g. https://www.youtube-nocookie.com/embed/VIDEO_ID -->
+    <figure class="reel-item">
+      <div class="video-frame">
+        <iframe src="" title="Personal Choreographic Project — Video 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <img class="video-poster" src="assets/006C064D-6DDC-4A37-9B2F-2054E6FB00A0.JPG" alt="">
+        <div class="play-badge" aria-hidden="true">&#9658;</div>
+      </div>
+      <figcaption>Personal Choreographic Project</figcaption>
+    </figure>
+
+    <figure class="reel-item">
+      <div class="video-frame">
+        <iframe src="" title="Personal Choreographic Project — Video 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <div class="video-placeholder">Add video link</div>
+      </div>
+      <figcaption>Personal Choreographic Project</figcaption>
     </figure>
 
   </div>
@@ -146,13 +185,32 @@
 </section>
 
 <footer id="contact" class="footer">
-  <p class="footer-name">Camilla Rakhimova</p>
   <div class="footer-links">
-    <a href="mailto:rakhimova.camill@gmail.com">rakhimova.camill@gmail.com</a>
-    <a href="tel:+33617285959">+33 6 17 28 59 59</a>
-    <a href="https://www.instagram.com/camillarakhimova_" target="_blank" rel="noopener">@camillarakhimova_</a>
+    <a href="mailto:rakhimova.camill@gmail.com">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg>
+      rakhimova.camill@gmail.com
+    </a>
+    <a href="tel:+33617285959">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11.9 21 3 12.1 3 1.7c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+      +33 6 17 28 59 59
+    </a>
+    <a href="https://www.instagram.com/camillarakhimova_" target="_blank" rel="noopener">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="0.6" fill="currentColor" stroke="none"/></svg>
+      @camillarakhimova_
+    </a>
   </div>
 </footer>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Close">&times;</button>
+  <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous photo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button class="lightbox-nav lightbox-next" type="button" aria-label="Next photo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <img class="lightbox-img" src="" alt="">
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
@@ -188,6 +246,58 @@
     }
   }
 
+  /* Gallery lightbox: click a photo to enlarge, arrows/Escape to navigate/close */
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = lightbox && lightbox.querySelector('.lightbox-img');
+  var galleryImgs = Array.prototype.slice.call(document.querySelectorAll('.gallery-item img'));
+  var lightboxIndex = -1;
+
+  function showAt(index) {
+    if (!lightbox || !galleryImgs.length) return;
+    lightboxIndex = (index + galleryImgs.length) % galleryImgs.length;
+    var img = galleryImgs[lightboxIndex];
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt || '';
+  }
+  function openLightbox(index) {
+    if (!lightbox) return;
+    showAt(index);
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+    lightboxIndex = -1;
+    document.body.style.overflow = '';
+  }
+  if (lightbox && galleryImgs.length) {
+    galleryImgs.forEach(function (img, i) {
+      img.addEventListener('click', function () { openLightbox(i); });
+    });
+    lightbox.addEventListener('click', closeLightbox);
+    lightbox.querySelector('.lightbox-close').addEventListener('click', function (e) {
+      e.stopPropagation();
+      closeLightbox();
+    });
+    lightbox.querySelector('.lightbox-prev').addEventListener('click', function (e) {
+      e.stopPropagation();
+      showAt(lightboxIndex - 1);
+    });
+    lightbox.querySelector('.lightbox-next').addEventListener('click', function (e) {
+      e.stopPropagation();
+      showAt(lightboxIndex + 1);
+    });
+    lightboxImg.addEventListener('click', function (e) { e.stopPropagation(); });
+    document.addEventListener('keydown', function (e) {
+      if (lightbox.hidden) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') showAt(lightboxIndex - 1);
+      if (e.key === 'ArrowRight') showAt(lightboxIndex + 1);
+    });
+  }
+
   if (!hasGSAP) return;
   gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -221,6 +331,7 @@
   /* Scroll cascade for list-like sections */
   [
     '#reel .reel-item',
+    '#choreography .reel-item',
     '#experience .entry',
     '#training-awards .compact-list li'
   ].forEach(function (selector) {
