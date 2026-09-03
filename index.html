@@ -12,7 +12,10 @@
 
 <header class="nav">
   <div class="nav-inner">
-    <nav class="nav-links">
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links">
       <a href="#about">About</a>
       <a href="#reel">Reel</a>
       <a href="#gallery">Gallery</a>
@@ -26,7 +29,7 @@
 
 <section id="top" class="hero">
   <div class="hero-photo">
-    <img src="assets/dance-portrait.jpg" alt="Camilla Rakhimova">
+    <img src="assets/headshot-front.jpg" alt="Camilla Rakhimova">
   </div>
   <div class="hero-text reveal">
     <h1>Camilla<br>Rakhimova</h1>
@@ -50,34 +53,16 @@
          e.g. https://www.youtube-nocookie.com/embed/VIDEO_ID -->
     <figure class="reel-item">
       <div class="video-frame">
-        <iframe src="" title="Litany — Evelyn Hart" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        <div class="video-placeholder">Add video link</div>
+        <iframe src="https://www.youtube.com/embed/noCw27clS_w" title="Repertoire — I. Florin, Callas" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
-      <figcaption><em>Litany</em> &middot; Evelyn Hart, Flyout Transition Company</figcaption>
+      <figcaption>Repertoire &middot; I. Florin, <em>&ldquo;Callas&rdquo;</em></figcaption>
     </figure>
 
     <figure class="reel-item">
       <div class="video-frame">
-        <iframe src="" title="Dark Flock — MANACAN" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        <div class="video-placeholder">Add video link</div>
+        <iframe src="https://www.youtube.com/embed/6qDdvGqsI60" title="Improvisation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
-      <figcaption><em>Dark Flock</em> &middot; MANACAN, Flyout Transition Company</figcaption>
-    </figure>
-
-    <figure class="reel-item">
-      <div class="video-frame">
-        <iframe src="" title="Callas / Le Bal — I. Florin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        <div class="video-placeholder">Add video link</div>
-      </div>
-      <figcaption><em>Callas</em> / <em>Le Bal</em> &middot; I. Florin, Junior European Ballet</figcaption>
-    </figure>
-
-    <figure class="reel-item">
-      <div class="video-frame">
-        <iframe src="" title="Giselle — A. Horsky" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        <div class="video-placeholder">Add video link</div>
-      </div>
-      <figcaption><em>Giselle</em> &middot; A. Horsky, Ayni National Opera and Ballet Theatre</figcaption>
+      <figcaption>Improvisation</figcaption>
     </figure>
 
   </div>
@@ -93,37 +78,33 @@
     <div class="gallery-item"><img src="assets/C7603466-2390-455D-9ED3-10DDE6E7A405.JPG" alt="Camilla Rakhimova performing"></div>
     <div class="gallery-item"><img src="assets/EA4B874E-16E1-44B9-AE39-E936C5EAB93B.JPG" alt="Camilla Rakhimova performing"></div>
     <div class="gallery-item"><img src="assets/ED6C397E-DBC1-4853-A096-5F909675813A.JPG" alt="Camilla Rakhimova performing"></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
-    <div class="gallery-item"><div class="gallery-placeholder"></div></div>
+    <div class="gallery-item"><img src="assets/F1A2B3C4-arabesque-lunge.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/headshot-profile.jpg" alt="Camilla Rakhimova"></div>
+    <div class="gallery-item"><img src="assets/fullbody-side.jpg" alt="Camilla Rakhimova"></div>
+    <div class="gallery-item"><img src="assets/studio-barre.jpg" alt="Camilla Rakhimova"></div>
+    <div class="gallery-item"><img src="assets/stage-red-light.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/group-motion-blur.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/jbe-duet-lift.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/stage-kneeling-silhouette.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/jbe-trio-flare.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/backbend-blue-light.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/kneeling-arm-raise.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/floor-extension-lift.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/floor-trio-purple.jpg" alt="Camilla Rakhimova performing"></div>
+    <div class="gallery-item"><img src="assets/duet-tracksuit.jpg" alt="Camilla Rakhimova performing"></div>
   </div>
 </section>
 
 <section id="choreography" class="section">
   <p class="section-label">Personal Choreographic Project</p>
-  <div class="reel-grid">
-
-    <!-- To add the video: replace the src="" below with a YouTube embed URL,
-         e.g. https://www.youtube-nocookie.com/embed/VIDEO_ID -->
-    <figure class="reel-item">
-      <div class="video-frame">
-        <iframe src="" title="Personal Choreographic Project — Video 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        <img class="video-poster" src="assets/006C064D-6DDC-4A37-9B2F-2054E6FB00A0.JPG" alt="">
-        <div class="play-badge" aria-hidden="true">&#9658;</div>
-      </div>
-      <figcaption>Personal Choreographic Project</figcaption>
-    </figure>
+  <div class="reel-grid choreography-grid">
 
     <figure class="reel-item">
-      <div class="video-frame">
-        <iframe src="" title="Personal Choreographic Project — Video 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        <div class="video-placeholder">Add video link</div>
-      </div>
-      <figcaption>Personal Choreographic Project</figcaption>
+      <a class="video-frame" href="https://www.instagram.com/reel/DOQqGCIjCJK/" target="_blank" rel="noopener" aria-label="Watch V.O. on Instagram">
+        <img class="video-poster" src="assets/vo-thumbnail.jpg" alt="">
+        <div class="play-badge" aria-hidden="true"></div>
+      </a>
+      <figcaption>V.O.</figcaption>
     </figure>
 
   </div>
@@ -179,8 +160,6 @@
 </section>
 
 <section id="resume" class="section resume-section reveal">
-  <p class="section-label">Resume</p>
-  <p class="resume-text">View the full CV — professional experience, training, awards and references.</p>
   <a class="resume-button" href="assets/camilla_cv.pdf" target="_blank" rel="noopener">View Full Resume (PDF)</a>
 </section>
 
@@ -219,6 +198,22 @@
 (function () {
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var hasGSAP = !reduceMotion && window.gsap && window.ScrollTrigger && window.SplitText;
+
+  /* Mobile nav toggle */
+  var navToggle = document.querySelector('.nav-toggle');
+  var navLinks = document.getElementById('nav-links');
+  if (navToggle && navLinks) {
+    navToggle.addEventListener('click', function () {
+      var isOpen = navLinks.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    navLinks.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navLinks.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 
   /* Section fade-in (hero text, about, resume) */
   var reveals = document.querySelectorAll('.reveal');
