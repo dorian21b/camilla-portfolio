@@ -197,6 +197,7 @@ a:focus-visible, button:focus-visible {
   aspect-ratio: 16 / 9;
   background: var(--paper-raised);
   border: 1px solid var(--line);
+  cursor: pointer;
 }
 .video-frame iframe {
   position: absolute;
